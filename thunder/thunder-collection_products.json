@@ -1,0 +1,69 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "products",
+    "collectionId": "594a8996-d83d-4e28-84b8-e186724f12a2",
+    "dateExported": "2025-02-03T19:52:35.385Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c7a359b3-a6df-4f83-9d12-997342e7c37a",
+            "colId": "594a8996-d83d-4e28-84b8-e186724f12a2",
+            "containerId": "",
+            "name": "http://127.0.0.1:8080/api/products",
+            "url": "http://127.0.0.1:8080/api/products",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-02-03T15:44:20.160Z",
+            "modified": "2025-02-03T15:44:20.160Z",
+            "headers": []
+        },
+        {
+            "_id": "107a37f7-e266-4665-94d4-a0604488098d",
+            "colId": "594a8996-d83d-4e28-84b8-e186724f12a2",
+            "containerId": "",
+            "name": "http://127.0.0.1:8080/api/products",
+            "url": "http://127.0.0.1:8080/api/products",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-02-03T15:44:32.214Z",
+            "modified": "2025-02-03T15:44:32.214Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"iMAC 2020\",\n  \"price\": 1000.99\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "96f8d3d5-f653-4567-aa53-291ebbaa5452",
+            "colId": "594a8996-d83d-4e28-84b8-e186724f12a2",
+            "containerId": "",
+            "name": "http://127.0.0.1:8080/api/products/1",
+            "url": "http://127.0.0.1:8080/api/products/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-02-03T15:44:40.441Z",
+            "modified": "2025-02-03T15:44:40.441Z",
+            "headers": []
+        },
+        {
+            "_id": "8d51f0db-4b3a-4f31-86b2-24271e4b07a0",
+            "colId": "594a8996-d83d-4e28-84b8-e186724f12a2",
+            "containerId": "",
+            "name": "http://127.0.0.1:8080/api/products/1",
+            "url": "http://127.0.0.1:8080/api/products/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2025-02-03T15:44:47.495Z",
+            "modified": "2025-02-03T15:44:47.495Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"iPhone 16\",\n  \"price\": 44.99\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "SuiTh3Mh4cz-PnkZ69MmKtle2w6ZagpNQ5biiCv_wc5RCmrHbwl5cxBQzmxTiA90K97QECJplzJGIPwyr_eMLQ"
+}

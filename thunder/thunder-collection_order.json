@@ -1,0 +1,23 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "order",
+    "collectionId": "400211e5-cd55-4561-b2ef-7c8a0e42b84d",
+    "dateExported": "2025-02-03T19:53:30.109Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "85fbee4a-0d1a-4931-8af9-e2cd971b9052",
+            "colId": "400211e5-cd55-4561-b2ef-7c8a0e42b84d",
+            "containerId": "",
+            "name": "http://127.0.0.1:8080/api/order/place",
+            "url": "http://127.0.0.1:8080/api/orders/place",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-02-03T16:42:06.314Z",
+            "modified": "2025-02-03T16:43:37.328Z",
+            "headers": []
+        }
+    ],
+    "ref": "ufMzRiu4tuwdAlS3UA8NOw2wKQdT9cW8OYzAWScRGa0gftAFIxjZJdqWQiJZb4ZT5529CXzXc8A0wKg8THK3FA"
+}
