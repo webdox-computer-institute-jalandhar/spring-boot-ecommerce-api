@@ -24,4 +24,9 @@ public class PurchasedItem {
     private Order order;
 
     private double price; // Price at the time of purchase
+
+    @ManyToOne(optional = false)
+    @JoinColumn(name = "user_id")
+    private User user;
+
 }

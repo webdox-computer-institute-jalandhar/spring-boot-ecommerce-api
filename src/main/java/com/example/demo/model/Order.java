@@ -22,4 +22,8 @@ public class Order {
     private List<CartItem> cartItems;
 
     private double totalPrice;
+
+    @ManyToOne(optional = false)
+    @JoinColumn(name = "user_id", referencedColumnName = "id")  // foreign key colum user_id
+    private User user;
 }
